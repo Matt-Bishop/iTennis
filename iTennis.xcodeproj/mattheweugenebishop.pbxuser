@@ -1,0 +1,147 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* iTennis */ = {
+		activeExec = 0;
+		executables = (
+			7C2D3415128D157A0099D57F /* iTennis */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* iTennisViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 959}}";
+			sepNavSelRange = "{1022, 0}";
+			sepNavVisRange = "{0, 1057}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* iTennisViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 2249}}";
+			sepNavSelRange = "{2436, 0}";
+			sepNavVisRange = "{0, 2410}";
+			sepNavWindowFrame = "{{75, 855}, {750, 558}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 7C2D3415128D157A0099D57F /* iTennis */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* iTennis */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* iTennis */,
+		);
+		codeSenseManager = 7C2D3421128D159F0099D57F /* Code sense */;
+		executables = (
+			7C2D3415128D157A0099D57F /* iTennis */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					786,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 311235962;
+			PBXWorkspaceStateSaveDate = 311235962;
+		};
+		perUserProjectItems = {
+			7C2D3450128D34D50099D57F /* PBXBookmark */ = 7C2D3450128D34D50099D57F /* PBXBookmark */;
+			7C2D3451128D34D50099D57F /* PBXTextBookmark */ = 7C2D3451128D34D50099D57F /* PBXTextBookmark */;
+			7C2D3452128D34D50099D57F /* PBXTextBookmark */ = 7C2D3452128D34D50099D57F /* PBXTextBookmark */;
+			7C2D3453128D34D50099D57F /* PBXTextBookmark */ = 7C2D3453128D34D50099D57F /* PBXTextBookmark */;
+		};
+		sourceControlManager = 7C2D3420128D159F0099D57F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	7C2D3415128D157A0099D57F /* iTennis */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iTennis;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	7C2D3420128D159F0099D57F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	7C2D3421128D159F0099D57F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	7C2D3450128D34D50099D57F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7C2D342A128D16120099D57F /* Default.png */;
+	};
+	7C2D3451128D34D50099D57F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* iTennisViewController.h */;
+		name = "iTennisViewController.h: 39";
+		rLen = 0;
+		rLoc = 1022;
+		rType = 0;
+		vrLen = 1057;
+		vrLoc = 0;
+	};
+	7C2D3452128D34D50099D57F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iTennisViewController.m */;
+		name = "iTennisViewController.m: 75";
+		rLen = 0;
+		rLoc = 2436;
+		rType = 0;
+		vrLen = 2164;
+		vrLoc = 1681;
+	};
+	7C2D3453128D34D50099D57F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iTennisViewController.m */;
+		name = "iTennisViewController.m: 75";
+		rLen = 0;
+		rLoc = 2436;
+		rType = 0;
+		vrLen = 2410;
+		vrLoc = 0;
+	};
+}
