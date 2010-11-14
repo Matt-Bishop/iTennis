@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioServices.h>
 
 @interface iTennisViewController : UIViewController {
 	IBOutlet UIImageView *ball;
@@ -23,6 +24,9 @@
 	
 	NSInteger player_score_value;
 	NSInteger computer_score_value;
+	
+	SystemSoundID volleyFieldID;
+	SystemSoundID clappingFileID;
 }
 
 @property(nonatomic,retain) IBOutlet UIImageView *ball;
@@ -35,6 +39,9 @@
 
 @property(nonatomic) CGPoint ballVelocity;
 @property(nonatomic) NSInteger gameState;
+
+@property(nonatomic) SystemSoundID volleyFileID;
+@property(nonatomic) SystemSoundID clappingFileID;
 
 - (void) reset :(BOOL) newGame;
 

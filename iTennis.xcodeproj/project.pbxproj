@@ -15,11 +15,15 @@
 		2899E5220DE3E06400AC0155 /* iTennisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* iTennisViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* iTennisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* iTennisViewController.m */; };
-		7C2D3426128D15F10099D57F /* Racquet_Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2D3422128D15F10099D57F /* Racquet_Yellow.png */; };
-		7C2D3427128D15F10099D57F /* Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2D3423128D15F10099D57F /* Ball.png */; };
-		7C2D3428128D15F10099D57F /* Racquet_Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2D3424128D15F10099D57F /* Racquet_Green.png */; };
-		7C2D3429128D15F10099D57F /* court.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2D3425128D15F10099D57F /* court.png */; };
-		7C2D342B128D16120099D57F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2D342A128D16120099D57F /* Default.png */; };
+		7C8BB116129082FB00546DB5 /* Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8BB111129082FB00546DB5 /* Ball.png */; };
+		7C8BB117129082FB00546DB5 /* court.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8BB112129082FB00546DB5 /* court.png */; };
+		7C8BB118129082FB00546DB5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8BB113129082FB00546DB5 /* Default.png */; };
+		7C8BB119129082FB00546DB5 /* Racquet_Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8BB114129082FB00546DB5 /* Racquet_Green.png */; };
+		7C8BB11A129082FB00546DB5 /* Racquet_Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8BB115129082FB00546DB5 /* Racquet_Yellow.png */; };
+		7C8BB1231290839B00546DB5 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8BB1221290839B00546DB5 /* SplashViewController.m */; };
+		7C8BB12D12908C0300546DB5 /* clapping-crowd-studio-01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7C8BB12C12908C0300546DB5 /* clapping-crowd-studio-01.caf */; };
+		7C8BB12F12908C0B00546DB5 /* tennis-volley-01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7C8BB12E12908C0B00546DB5 /* tennis-volley-01.caf */; };
+		7C8BB13712908C4400546DB5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8BB13612908C4400546DB5 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +39,16 @@
 		28D7ACF70DDB3853001CB0EB /* iTennisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTennisViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* iTennis_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTennis_Prefix.pch; sourceTree = "<group>"; };
-		7C2D3422128D15F10099D57F /* Racquet_Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Racquet_Yellow.png; path = ../../Desktop/Racquet_Yellow.png; sourceTree = SOURCE_ROOT; };
-		7C2D3423128D15F10099D57F /* Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ball.png; path = ../../Desktop/Ball.png; sourceTree = SOURCE_ROOT; };
-		7C2D3424128D15F10099D57F /* Racquet_Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Racquet_Green.png; path = ../../Desktop/Racquet_Green.png; sourceTree = SOURCE_ROOT; };
-		7C2D3425128D15F10099D57F /* court.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = court.png; path = ../../Desktop/court.png; sourceTree = SOURCE_ROOT; };
-		7C2D342A128D16120099D57F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../Desktop/Default.png; sourceTree = SOURCE_ROOT; };
+		7C8BB111129082FB00546DB5 /* Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ball.png; sourceTree = "<group>"; };
+		7C8BB112129082FB00546DB5 /* court.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = court.png; sourceTree = "<group>"; };
+		7C8BB113129082FB00546DB5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7C8BB114129082FB00546DB5 /* Racquet_Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Racquet_Green.png; sourceTree = "<group>"; };
+		7C8BB115129082FB00546DB5 /* Racquet_Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Racquet_Yellow.png; sourceTree = "<group>"; };
+		7C8BB1211290839B00546DB5 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		7C8BB1221290839B00546DB5 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		7C8BB12C12908C0300546DB5 /* clapping-crowd-studio-01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "clapping-crowd-studio-01.caf"; sourceTree = "<group>"; };
+		7C8BB12E12908C0B00546DB5 /* tennis-volley-01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tennis-volley-01.caf"; sourceTree = "<group>"; };
+		7C8BB13612908C4400546DB5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* iTennis-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iTennis-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,6 +60,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				7C8BB13712908C4400546DB5 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +74,8 @@
 				1D3623250D0F684500981E51 /* iTennisAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* iTennisViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* iTennisViewController.m */,
+				7C8BB1211290839B00546DB5 /* SplashViewController.h */,
+				7C8BB1221290839B00546DB5 /* SplashViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -101,11 +113,13 @@
 			isa = PBXGroup;
 			children = (
 				2899E5210DE3E06400AC0155 /* iTennisViewController.xib */,
-				7C2D3422128D15F10099D57F /* Racquet_Yellow.png */,
-				7C2D3423128D15F10099D57F /* Ball.png */,
-				7C2D342A128D16120099D57F /* Default.png */,
-				7C2D3424128D15F10099D57F /* Racquet_Green.png */,
-				7C2D3425128D15F10099D57F /* court.png */,
+				7C8BB111129082FB00546DB5 /* Ball.png */,
+				7C8BB112129082FB00546DB5 /* court.png */,
+				7C8BB113129082FB00546DB5 /* Default.png */,
+				7C8BB12E12908C0B00546DB5 /* tennis-volley-01.caf */,
+				7C8BB114129082FB00546DB5 /* Racquet_Green.png */,
+				7C8BB115129082FB00546DB5 /* Racquet_Yellow.png */,
+				7C8BB12C12908C0300546DB5 /* clapping-crowd-studio-01.caf */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* iTennis-Info.plist */,
 			);
@@ -115,6 +129,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7C8BB13612908C4400546DB5 /* AudioToolbox.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
@@ -173,11 +188,13 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* iTennisViewController.xib in Resources */,
-				7C2D3426128D15F10099D57F /* Racquet_Yellow.png in Resources */,
-				7C2D3427128D15F10099D57F /* Ball.png in Resources */,
-				7C2D3428128D15F10099D57F /* Racquet_Green.png in Resources */,
-				7C2D3429128D15F10099D57F /* court.png in Resources */,
-				7C2D342B128D16120099D57F /* Default.png in Resources */,
+				7C8BB116129082FB00546DB5 /* Ball.png in Resources */,
+				7C8BB117129082FB00546DB5 /* court.png in Resources */,
+				7C8BB118129082FB00546DB5 /* Default.png in Resources */,
+				7C8BB119129082FB00546DB5 /* Racquet_Green.png in Resources */,
+				7C8BB11A129082FB00546DB5 /* Racquet_Yellow.png in Resources */,
+				7C8BB12D12908C0300546DB5 /* clapping-crowd-studio-01.caf in Resources */,
+				7C8BB12F12908C0B00546DB5 /* tennis-volley-01.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +208,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* iTennisAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* iTennisViewController.m in Sources */,
+				7C8BB1231290839B00546DB5 /* SplashViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,16 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SplashViewController.h"
 
-@class iTennisViewController;
+
 
 @interface iTennisAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    iTennisViewController *viewController;
+    SplashViewController *viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet iTennisViewController *viewController;
+@property (nonatomic, retain) IBOutlet SplashViewController *viewController;
 
 @end
 

@@ -21,6 +21,7 @@
 
 @implementation iTennisViewController
 @synthesize ball,racquet_yellow,racquet_green,player_score,computer_score,gameState,ballVelocity,tapToBegin;
+@synthesize volleyFileID, clappingFileID;
 
 - (void) gameLoop{
 	if(gameState == kGameStateRunning){
@@ -30,12 +31,14 @@
 		if(CGRectIntersectsRect(ball.frame,racquet_yellow.frame)){
 			if(ball.center.y < racquet_yellow.center.y){
 				ballVelocity.y = -ballVelocity.y;
+				AudioServicesPlaySystemSound (volleyFileID);
 				NSLog(@"%f %f", ball.center,racquet_green.center);
 			}
 		}
 		if (CGRectIntersectsRect(ball.frame,racquet_green.frame)){
 			if (ball.center.y > racquet_green.center.y){
 				ballVelocity.y = -ballVelocity.y;
+				AudioServicesPlaySystemSound (volleyFileID);
 			}
 		}
 		
@@ -80,6 +83,7 @@
 
 - (void)reset:(BOOL) newGame{
 	self.gameState = kGameStatePaused;
+	AudioServicesPlaySystemSound (clappingFileID);
 	ball.center = self.view.center;
 	if (newGame) {
 		if (computer_score_value > player_score_value) {
@@ -138,6 +142,16 @@
     [super viewDidLoad];
 	self.gameState = kGameStatePaused;
 	ballVelocity = CGPointMake(kBallSpeedX,kBallSpeedY);
+	
+	NSString *clapPath = [[NSBundle mainBundle] pathForResource:@"clapping-crowd-studio-01" ofType:@"caf"];
+	NSLog(@"The path is %s", clapPath);
+	CFURLRef clapURL = (CFURLRef) [NSURL fileURLWithPath:clapPath];
+	AudioServicesCreateSystemSoundID (clapURL, &clappingFileID);
+	
+	NSString *volleyPath = [[NSBundle mainBundle] pathForResource:@"tennis-volley-01" ofType:@"caf"];
+	CFURLRef volleyURL = (CFURLRef) [NSURL fileURLWithPath:volleyPath];
+	AudioServicesCreateSystemSoundID (volleyURL, &volleyFileID);
+	
 	[NSTimer scheduledTimerWithTimeInterval:0.05 target:self selector:@selector(gameLoop) userInfo:nil repeats:YES];
 }
 
